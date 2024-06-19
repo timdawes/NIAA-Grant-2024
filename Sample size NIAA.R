@@ -1,4 +1,4 @@
-# Post-operative LCOSpo fromin neonates
+# Post-operative LCOSpo 
 # Tim Dawes
 # February 2024
 
@@ -9,12 +9,8 @@ library(readxl)
 library(Hmisc)
 library(RColorBrewer)
 library(ggsci)
-library(viridis)
 
-cols<- viridis(10, option = "turbo")
 # Choose some colours
-      #cols<- c(brewer.pal(3,"Reds")[-1], "black", rev(brewer.pal(3, "Blues")[-1]))
-      #cols<- brewer.pal(n=8, name='Dark2')
       cols<- pal_npg("nrc")(5)
       
 
